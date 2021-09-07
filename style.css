@@ -1447,14 +1447,9 @@ textarea:focus {
 
 /*-- /Section 7 --*/
 
-
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
-
-footer {
-    
-}
 
 .footer_section {
     padding-top: 36px;
@@ -1590,10 +1585,6 @@ footer {
 .grey_pill_2:hover {
     color: #fff;
     background-color: #a0c51d;
-}
-
-.contacts_list {
-
 }
 
 .contacts_list li {
