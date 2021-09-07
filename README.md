@@ -1,1 +1,1 @@
-# http://postolenko.github.io/sat_site/index.html
+# http://postolenko.github.io/sat/index.html
