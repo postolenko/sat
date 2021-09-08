@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('ProximaNova-Semibold.eot');
-    src: url('ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('ProximaNova-Semibold.woff2') format('woff2'),
-        url('ProximaNova-Semibold.woff') format('woff'),
-        url('ProximaNova-Semibold.ttf') format('truetype'),
-        url('ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+    src: url('fonts/ProximaNova-Semibold.eot');
+    src: url('fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('fonts/ProximaNova-Semibold.woff') format('woff'),
+        url('fonts/ProximaNova-Semibold.ttf') format('truetype'),
+        url('fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -19,12 +19,12 @@
 
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('ProximaNova-Bold.eot');
-    src: url('ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
-        url('ProximaNova-Bold.woff2') format('woff2'),
-        url('ProximaNova-Bold.woff') format('woff'),
-        url('ProximaNova-Bold.ttf') format('truetype'),
-        url('ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    src: url('fonts/ProximaNova-Bold.eot');
+    src: url('fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('fonts/ProximaNova-Bold.woff') format('woff'),
+        url('fonts/ProximaNova-Bold.ttf') format('truetype'),
+        url('fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -32,12 +32,12 @@
 
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('ProximaNova-Regular.eot');
-    src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
-        url('ProximaNova-Regular.woff2') format('woff2'),
-        url('ProximaNova-Regular.woff') format('woff'),
-        url('ProximaNova-Regular.ttf') format('truetype'),
-        url('ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    src: url('fonts/ProximaNova-Regular.eot');
+    src: url('fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('fonts/ProximaNova-Regular.woff') format('woff'),
+        url('fonts/ProximaNova-Regular.ttf') format('truetype'),
+        url('fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -45,12 +45,12 @@
 
 @font-face {
     font-family: 'A_AntiqueTrady';
-    src: url('AAntiqueTrady.eot');
-    src: url('AAntiqueTrady.eot?#iefix') format('embedded-opentype'),
-        url('AAntiqueTrady.woff2') format('woff2'),
-        url('AAntiqueTrady.woff') format('woff'),
-        url('AAntiqueTrady.ttf') format('truetype'),
-        url('AAntiqueTrady.svg#AAntiqueTrady') format('svg');
+    src: url('fonts/AAntiqueTrady.eot');
+    src: url('fonts/AAntiqueTrady.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AAntiqueTrady.woff2') format('woff2'),
+        url('fonts/AAntiqueTrady.woff') format('woff'),
+        url('fonts/AAntiqueTrady.ttf') format('truetype'),
+        url('fonts/AAntiqueTrady.svg#AAntiqueTrady') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -58,12 +58,12 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-Bold.eot');
-    src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Montserrat-Bold.woff2') format('woff2'),
-        url('Montserrat-Bold.woff') format('woff'),
-        url('Montserrat-Bold.ttf') format('truetype'),
-        url('Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    src: url('fonts/Montserrat-Bold.eot');
+    src: url('fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('fonts/Montserrat-Bold.woff') format('woff'),
+        url('fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -71,12 +71,12 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-Medium.eot');
-    src: url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Montserrat-Medium.woff2') format('woff2'),
-        url('Montserrat-Medium.woff') format('woff'),
-        url('Montserrat-Medium.ttf') format('truetype'),
-        url('Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    src: url('fonts/Montserrat-Medium.eot');
+    src: url('fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('fonts/Montserrat-Medium.woff') format('woff'),
+        url('fonts/Montserrat-Medium.ttf') format('truetype'),
+        url('fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -124,6 +124,7 @@ body {
     -ms-flex-direction: column;
     min-height: 100%;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 header {
@@ -141,10 +142,10 @@ footer {
     -webkit-flex: 0 0 auto;
 }
 
-::-webkit-input-placeholder {color:#555555;}
-::-moz-placeholder          {color:#555555;}
-:-moz-placeholder           {color:#555555;}
-:-ms-input-placeholder      {color:#555555;}
+::-webkit-input-placeholder {color:#333;}
+::-moz-placeholder          {color:#333;}
+:-moz-placeholder           {color:#333;}
+:-ms-input-placeholder      {color:#333;}
 
 input,
 textarea,
@@ -291,22 +292,6 @@ a:active {
     -webkit-tap-highlight-color: transparent;
 }
 
-input {
-
-}
-
-input:focus {
-
-}
-
-textarea {
-
-}
-
-textarea:focus {
-
-}
-
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
@@ -346,29 +331,6 @@ textarea:focus {
     margin-bottom: -96px;
     background-color: transparent;
     border: 1px solid transparent;
-/*    -webkit-transition-property: box-shadow, opacity;
-    -webkit-transition-duration: .3s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: box-shadow, opacity;
-    -moz-transition-duration: .3s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: box-shadow, opacity;
-    -ms-transition-duration: .3s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: box-shadow, opacity;
-    -o-transition-duration: .3s;
-    -o-transition-timing-function: ease;
-
-    transition-property: box-shadow, opacity;
-    transition-duration: .3s;
-    transition-timing-function: ease;*/
-}
-
-.slick-arrow:hover {
-
 }
 
 .slick-arrow img {
@@ -435,7 +397,7 @@ textarea:focus {
 /*-------------------------------------------*/
 
 .header_site {
-    padding: 39px 0 9px 0;
+    padding: 26px 0 9px 0;
 }
 
 .header_row_1 {
@@ -447,7 +409,7 @@ textarea:focus {
 
 .header_row_1 > .left_col {
     width: 280px;
-    padding-top: 3px;
+    padding-top: 9px;
     padding-right: 10px;
 }
 
@@ -669,11 +631,11 @@ textarea:focus {
 /* ----- Responsive Menu Button ------ */
 
 .respmenubtn {
-    /*display: inline-block;*/
-    display: none;
+    display: inline-block;
+    /*display: none;*/
     vertical-align: top;
-    width: 45px;
-    height: 37px;
+    width: 20px;
+    height: 15px;
     background: transparent;
     cursor: pointer;
     position: relative;
@@ -684,10 +646,10 @@ textarea:focus {
 
 .respmenubtn span {
     display: block;
-    width: 27px;
+    width: 19px;
     height: 2px;
-    background: #466896;
-    margin: 0 auto 7px auto;
+    background: #606060;
+    margin: 0 auto 4px auto;
     -webkit-transition-property: transform, border, background;
     -webkit-transition-duration: .3s;
     -webkit-transition-timing-function: ease;
@@ -719,15 +681,15 @@ textarea:focus {
 }
 
 .respmenubtn:hover span {
-    background: #e9ba5f;
+    background: #9ec41d;
 }
 
 .respmenubtn.active span {
     position: relative;
-    width: 35px;
-    top: 2px;
-    left: 0;
-    background: #e9ba5f;
+    width: 21px;
+    top: 0px;
+    left: -2px;
+    background: #9ec41d;
 }
 
 .respmenubtn.active span:last-child {
@@ -741,8 +703,8 @@ textarea:focus {
     transform: rotate(45deg);
     margin: 3px 0 0 0;
     position: relative;
-    top: 4px;
-    left: 5px;
+    top: 2px;
+    left: -1px;
 }
 
 .respmenubtn.active span:nth-child(2) {
@@ -754,13 +716,51 @@ textarea:focus {
 
 /* ----- / Responsive Menu Button ------ */
 
+.header_row_resp {
+    display: none;
+}
+
+.close_nav {
+    display: none;
+    vertical-align: top;
+    width: 20px;
+    height: 15px;
+    background: transparent;
+    cursor: pointer;
+    top: 6px;
+    z-index: 11;
+    border: 1px solid transparent;
+}
+
+.close_nav span {
+    display: block;
+    width: 19px;
+    height: 2px;
+    background: #9ec41d;
+    margin: 0 auto 4px auto;
+}
+
 /*-------------------------------------------*/
 /* ----- CONTENT ------ */
 /*-------------------------------------------*/
 
 /*-- Section 1 --*/
 
+.bg_sect {
+    overflow: hidden;
+}
+
 .main_bg {
+    min-width: 100%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+}
+
+.resp_img {
+    display: none;
     min-width: 100%;
     height: auto;
     position: relative;
@@ -856,7 +856,7 @@ textarea:focus {
     max-width: 100%;
     width: auto;
     position: relative;
-    top: 3px;
+    top: 1px;
 }
 
 .item .item_content {
@@ -978,6 +978,11 @@ textarea:focus {
     position: relative;
 }
 
+.grey_bg > .row {
+    position: relative;
+    z-index: 3;
+}
+
 .grey_bg_top {
     width: auto;
     min-width: 100%;
@@ -1000,6 +1005,10 @@ textarea:focus {
     -webkit-transform: translate(-50%, 0);
 }
 
+.grey_bg_top_resp {
+    display: none;
+}
+
 .about_article {
     display: flex;
     display: -webkit-flex;
@@ -1013,6 +1022,16 @@ textarea:focus {
 .about_article .right_col {
     width: calc(100% - 465px);
     padding-left: 10px;
+}
+
+.about_article .left_col img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+}
+
+.about_img_resp {
+    display: none;
 }
 
 .h2_wrapp_2 {
@@ -1301,6 +1320,10 @@ textarea:focus {
     left: 50%;
     transform: translate(-50%, 0);
     -webkit-transform: translate(-50%, 0);
+    display: block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .product_thumb h3 {
@@ -1324,13 +1347,17 @@ textarea:focus {
     vertical-align: top;
     border-radius: 21px;
     -webkit-border-radius: 21px;
-    background-color: #a4c921;
     padding: 6px 25px 6px 25px;
     text-align: center;
     font-size: 25px;
     line-height: 1.2;
     font-weight: bold;
     color: #fff;
+    background: #a1c61e;
+    background: -moz-linear-gradient(top,  #a1c61e 0%, #c6ea43 100%);
+    background: -webkit-linear-gradient(top,  #a1c61e 0%,#c6ea43 100%);
+    background: linear-gradient(to bottom,  #a1c61e 0%,#c6ea43 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1c61e', endColorstr='#c6ea43',GradientType=0 );
 }
 
 .product_thumb .gradient_pill_2 {
@@ -1447,6 +1474,73 @@ textarea:focus {
 
 /*-- /Section 7 --*/
 
+/*-- Section 6_2 --*/
+
+.tabs_slider_wrapp_2 {
+    padding-top: 0;
+}
+
+.tabs_slider_2 .slide {
+    padding: 30px 20px;
+}
+
+.products_thumbs_wrapp {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+}
+
+.product_thumb_2 {
+    width: 264px;
+    margin: 0 auto;
+    min-height: 400px;
+    min-height: 100px;
+    padding: 60px 5px 32px 5px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -webkit-box-shadow: 0 10px 25px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 10px 25px 0 rgba(0,0,0,.1);
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,.1);
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.product_thumb_2:hover {
+    -webkit-box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+}
+
+.product_thumb_2 .thumb_descript {
+    min-height: 57px;
+}
+
+/*-- /Section 6_2 --*/
+
+.shape_resp {
+    display: none;
+    position: absolute;
+}
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
@@ -1491,6 +1585,10 @@ textarea:focus {
     -webkit-transform: translate(-50%, 0);
 }
 
+.footer_bottom_2 {
+    display: none;
+}
+
 .footer_inner {
     padding: 0 35px;
 }
@@ -1510,7 +1608,7 @@ textarea:focus {
     padding-right: 10px;
 }
 
-.footer_two_cols .rigjt_col {
+.footer_two_cols .right_col {
     width: 50%;
     padding-left: 10px;
 }
@@ -1592,8 +1690,8 @@ textarea:focus {
 }
 
 .contact_thumb_2 {
-    display: flex;
-    display: -webkit-flex;
+    display: inline-flex;
+    display: -webkit-inline-flex;
 }
 
 .contact_thumb_2 > div:nth-child(1) {
@@ -1606,6 +1704,7 @@ textarea:focus {
 }
 
 .contact_thumb_2 p {
+    white-space: nowrap;
     font-size: 22px;
     line-height: 1;
     font-weight: normal;
@@ -1644,3 +1743,260 @@ textarea:focus {
 .contact_thumb_2:hover p {
     color: #a0c51d;
 }
+
+/*-- Animation --*/
+
+.leftSlice {
+    position: relative;
+    left: -3%;
+    opacity: 0;
+    -webkit-transition-property: left, opacity;
+    -webkit-transition-duration: .7s;
+    -webkit-transition-delay: .3s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: left, opacity;
+    -moz-transition-duration: .7s;
+    -moz-transition-delay: .3s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: left, opacity;
+    -ms-transition-duration: .7s;
+    -ms-transition-delay: .3s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: left, opacity;
+    -o-transition-duration: .7s;
+    -o-transition-delay: .3s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: left, opacity;
+    transition-duration: .7s;
+    transition-delay: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.animate.active.leftSlice {
+    left: 0;
+    opacity: 1;
+}
+
+.fadeIn {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: .7s;
+    -webkit-transition-delay: .3s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: opacity;
+    -moz-transition-duration: .7s;
+    -moz-transition-delay: .3s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: opacity;
+    -ms-transition-duration: .7s;
+    -ms-transition-delay: .3s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: opacity;
+    -o-transition-duration: .7s;
+    --transition-delay: .3s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: opacity;
+    transition-duration: .7s;
+    transition-delay: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.animate.active.fadeIn {
+    opacity: 1;
+}
+
+.zoomFade {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition-property: opacity, transform;
+    -webkit-transition-duration: .7s;
+    -webkit-transition-delay: .3s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: opacity, transform;
+    -moz-transition-duration: .7s;
+    -moz-transition-delay: .3s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: opacity, transform;
+    -ms-transition-duration: .7s;
+    -ms-transition-delay: .3s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: opacity, transform;
+    -o-transition-duration: .7s;
+    --transition-delay: .3s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: opacity, transform;
+    transition-duration: .7s;
+    transition-delay: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.animate.active.zoomFade {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+
+.fadeInUp {
+    position: relative;
+    bottom: -20px;
+    opacity: 0;
+    -webkit-transition-property: bottom, opacity;
+    -webkit-transition-duration: .7s;
+    -webkit-transition-delay: .3s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: bottom, opacity;
+    -moz-transition-duration: .7s;
+    -moz-transition-delay: .3s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: bottom, opacity;
+    -ms-transition-duration: .7s;
+    -ms-transition-delay: .3s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: bottom, opacity;
+    -o-transition-duration: .7s;
+    -o-transition-delay: .3s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: bottom, opacity;
+    transition-duration: .7s;
+    transition-delay: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.animate.active.fadeInUp {
+    bottom: 0;
+    opacity: 1;
+}
+
+/*-- /Animation --*/
+
+/*-- Popup --*/
+
+body.fixed {
+    width: 100%;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.popup {
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.popup_bg {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .7);
+    z-index: 19;
+}
+
+.popup_content {
+    max-width: 480px;
+    width: 94%;
+    margin: 70px auto 20px auto;
+    position: relative;
+    z-index: 2;
+}
+
+.popup_content .inner {
+    background-color: #FFFFFF;
+    padding: 52px 40px 23px 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.close_popup {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url(img/close.svg);
+    background-size: contain;
+}
+
+.popup_content .close_popup {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    z-index: 2;
+}
+
+.popup_title {
+    text-align: center;
+}
+
+.popup_title h3 {
+    font-family: 'Proxima Nova';
+    font-size: 25px;
+    color: #a09d9d;
+    line-height: 34px;
+    font-weight: normal;
+}
+
+.input_wrapp {
+    margin: 20px 0;
+}
+
+.input_wrapp input {
+    display: block;
+    width: 100%;
+    padding: 0 25px;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    height: 50px;
+    font-family: 'Proxima Nova';
+    font-size: 25px;
+    color: #333;
+    line-height: 34px;
+    font-weight: normal;
+    border: 2px solid #a2c71f;
+}
+
+.input_wrapp textarea {
+    display: block;
+    width: 100%;
+    height: 150px;
+    padding: 6px 25px;
+    resize: none;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    font-family: 'Proxima Nova';
+    font-size: 25px;
+    color: #333;
+    line-height: 34px;
+    font-weight: normal;
+    border: 2px solid #a2c71f;
+}
+
+/*-- /Popup --*/
