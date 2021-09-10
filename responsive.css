@@ -915,7 +915,7 @@
 	}
 
 	h3 {
-	    font-size: 21px;
+	    font-size: 25px;
 	}
 
 	.item h3 {
@@ -924,7 +924,7 @@
 	}
 
 	.item p {
-	    font-size: 17px;
+	    font-size: 18px;
 	}
 
 	.item .icon_col img {
@@ -952,11 +952,11 @@
 @media only screen and (max-width: 450px) {
 
 	h2 {
-	    font-size: 20px;
+	    font-size: 25px;
 	}
 
 	p {
-	    font-size: 15px;
+	    font-size: 17px;
 	}
 
 	/*-- Section 2 --*/
@@ -969,7 +969,7 @@
 	}
 
 	.h2_descript p {
-	    font-size: 17px;
+	    font-size: 19px;
 	}
 
 	/*-- /Section 2 --*/
@@ -1038,7 +1038,7 @@
 
 	.tabs_list li a {
 	    padding: 0 2px 0px 2px;
-	    font-size: 16px;
+	    font-size: 18px;
 	}
 
 	.tabs_list li a:link,
@@ -1116,7 +1116,7 @@
 	}
 
 	.vacansie_item p {
-	    font-size: 16px;
+	    font-size: 18px;
 	}
 
 	.button_wrapp_4 {
@@ -1124,7 +1124,7 @@
 	}
 
 	.grey_pill {
-	    font-size: 14px;
+	    font-size: 16px;
 	}
 
 	/*-- /Section 7 --*/
@@ -1189,7 +1189,7 @@
 	}
 
 	.contact_thumb_2 p {
-	    font-size: 17px;
+	    font-size: 18px;
 	}
 
 	.contact_thumb > div:nth-child(1) {
@@ -1202,12 +1202,12 @@
 	}
 
 	.contact_thumb p {
-	    font-size: 17px;
+		font-size: 18px;
 	}
 
 	.grey_pill_2 {
 	    padding: 5px 20px 5px 20px;
-	    font-size: 17px;
+	    font-size: 18px;
 	}
 
 	.btn_wrapp {
