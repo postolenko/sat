@@ -459,14 +459,14 @@
 	.logo_resp {
 		display: inline-block;
 		vertical-align: top;
-		max-width: 246px;
+		max-width: 110px;
 	}
 
 	.logo_resp img {
 		display: block;
-		width: auto;
+		/*width: 100%;*/
+		width: 110px;
 		height: auto;
-		max-width: 100%;
 	}
 
 	.header_row_resp > .right_col {
@@ -485,7 +485,7 @@
 		height: 100vh;
 		overflow-y: auto;
 		margin: 0;
-		padding: 40px 25px 50px 25px;
+		padding: 50px 25px 50px 25px;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -529,9 +529,9 @@
 	}
 	.close_nav span {
 	    position: relative;
-	    width: 21px;
-	    top: 0px;
-	    left: -2px;
+		width: 28px;
+		top: -2px;
+		left: -1px;
 	    background: #9ec41d;
 	}
 	.close_nav span:first-child {
@@ -541,8 +541,8 @@
 	    transform: rotate(45deg);
 	    margin: 3px 0 0 0;
 	    position: relative;
-	    top: 2px;
-	    left: -1px;
+	    top: 0;
+	    left: 0;
 	}
 	.close_nav span:nth-child(2) {
 	    -webkit-transform: rotate(-45deg);
@@ -662,8 +662,8 @@
 	.transparent_pill {
 		padding: 4px 13px 4px 13px;
 		border: 2px solid #8bb025;
-		font-size: 12px;
-		line-height: 16px;
+		font-size: 15px;
+		line-height: 18px;
 	}
 
 	.shape {
