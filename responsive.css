@@ -1,3 +1,15 @@
+@media only screen and (max-width: 1400px) {
+
+	/*-- Side Navigation --*/
+
+	.side_nav {
+	    right: 20px;
+	}
+
+	/*-- /Side Navigation --*/
+
+}
+
 @media only screen and (max-width: 1240px) {
 
 	h2 {
@@ -334,6 +346,14 @@
 
 @media only screen and (max-width: 767px) {
 
+	/*-- Side Navigation --*/
+
+	.side_nav {
+	    right: 5px;
+	}
+
+	/*-- /Side Navigation --*/
+
 	.wrapper {
 	    padding-top: 108px;
 	}
@@ -499,13 +519,13 @@
 
 	.main_nav li {
 		width: 100%;
-		padding: 7px 0;
+    	padding: 10px 0;
 	}
 
 	.main_nav li a {
 		display: block;
-		font-size: 19px;
-		line-height: 21px;
+		font-size: 24px;
+		line-height: 26px;
 	}
 
 	.close_nav {

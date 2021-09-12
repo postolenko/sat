@@ -392,6 +392,69 @@ a:active {
 
 /*-- /Slick --*/
 
+/*-- Side Navigation --*/
+
+.side_nav {
+    width: 10px;
+    position: fixed;
+    top: 50%;
+    right: 60px;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    z-index: 9;
+}
+
+.side_nav li {
+    padding: 6px 0;
+}
+
+.side_nav li a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: rgb(139, 167, 90);
+    -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 0 2px 0 rgba(0,0,0,.3);
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.3);
+    -webkit-transition-property: background, color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background, color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background, color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background, color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background, color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.side_nav li a:link,
+.side_nav li a:visited {
+    background-color: rgb(139, 167, 90);
+}
+
+.side_nav li a:active,
+.side_nav li a.active {
+    background-color: #fff;
+}
+
+.side_nav li a:hover {
+    background-color: #fff;
+}
+
+/*-- /Side Navigation --*/
+
 /*-------------------------------------------*/
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
@@ -802,7 +865,7 @@ a:active {
 }
 
 .h2_descript {
-    max-width: 486px;
+    max-width: 548px;
     margin: 28px auto 5px auto;
     text-align: center;
 }
@@ -1097,6 +1160,7 @@ a:active {
 }
 
 .img_thumb {
+    display: block;
     height: 255px;
     cursor: pointer;
     position: relative;
@@ -1414,6 +1478,37 @@ a:active {
     padding-bottom: 5px;
 }
 
+.vacansie_item .h3_link {
+    font-family: 'A_AntiqueTrady';
+    font-size: 35px;
+    color: #363636;
+    line-height: 1.2;
+    font-weight: normal;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.vacansie_item .h3_link:hover {
+    color: #a0c51d;
+}
+
 .vacansie_item p {
     font-size: 23px;
     line-height: 1.3;
@@ -1486,6 +1581,8 @@ a:active {
 .products_thumbs_wrapp {
     display: flex;
     display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
     -webkit-justify-content: space-around;
@@ -1493,7 +1590,7 @@ a:active {
 
 .product_thumb_2 {
     width: 264px;
-    margin: 0 auto;
+    margin: 15px auto;
     min-height: 400px;
     padding: 60px 5px 32px 5px;
     border-radius: 25px;
