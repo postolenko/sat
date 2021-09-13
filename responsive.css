@@ -8,6 +8,14 @@
 
 	/*-- /Side Navigation --*/
 
+	/*-- Section 1 --*/
+
+	.promo_slider .slick-dots {
+		right: 25px;
+	}
+
+	/*-- /Section 1 --*/
+
 }
 
 @media only screen and (max-width: 1240px) {
@@ -229,6 +237,14 @@
 	.h2_descript p {
 	    font-size: 24px;
 	}
+
+	/*-- Section 1 --*/
+
+	.promo_slider .slide {
+	    height: 600px;
+	}
+
+	/*-- /Section 1 --*/
 
 	/*-- Section 2 --*/
 
@@ -519,13 +535,13 @@
 
 	.main_nav li {
 		width: 100%;
-    	padding: 10px 0;
+    	padding: 13px 0;
 	}
 
 	.main_nav li a {
 		display: block;
-		font-size: 24px;
-		line-height: 26px;
+		font-size: 27px;
+		line-height: 29px;
 	}
 
 	.close_nav {
@@ -572,12 +588,8 @@
 
 	/*-- Section 1 --*/
 
-	.main_bg {
-		display: none;
-	}
-
-	.resp_img {
-		display: block;
+	.promo_slider .slide {
+	    height: 480px;
 	}
 
 	/*-- /Section 1 --*/
@@ -902,6 +914,14 @@
 	h2 {
 	    font-size: 27px;
 	}
+
+	/*-- Section 1 --*/
+
+	.promo_slider .slide {
+	    height: 400px;
+	}
+
+	/*-- /Section 1 --*/
 
 	/*-- Section 2 --*/
 

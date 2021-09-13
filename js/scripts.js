@@ -14,24 +14,24 @@ function getAnimation() {
   });
 }
 
-function getActiveLink() {
-  topNavCoord = $(".scroll_nav").offset().top;
-  bottomNavCoord = $(".scroll_nav").offset().top + $(".scroll_nav").height();
-  $(".coord_sect").each(function() {
-    coordTop = $(this).offset().top;
-    coordBottom = $(this).offset().top + $(this).height();
-    if( topNavCoord >= coordTop && bottomNavCoord <= coordBottom ) {
-      idAttr = "#" + $(this).attr("id");
-      $(".scroll_nav a").removeClass("active");
-      $(".scroll_nav a").each(function() {
-        href = $(this).attr("href");
-        if(idAttr == href) {
-          $(this).addClass("active");
-        }
-      });
-    }
-  }); 
-}
+// function getActiveLink() {
+//   topNavCoord = $(".scroll_nav").offset().top;
+//   bottomNavCoord = $(".scroll_nav").offset().top + $(".scroll_nav").height();
+//   $(".coord_sect").each(function() {
+//     coordTop = $(this).offset().top;
+//     coordBottom = $(this).offset().top + $(this).height();
+//     if( topNavCoord >= coordTop && bottomNavCoord <= coordBottom ) {
+//       idAttr = "#" + $(this).attr("id");
+//       $(".scroll_nav a").removeClass("active");
+//       $(".scroll_nav a").each(function() {
+//         href = $(this).attr("href");
+//         if(idAttr == href) {
+//           $(this).addClass("active");
+//         }
+//       });
+//     }
+//   }); 
+// }
 
 var w = window,
 d = document,
@@ -42,25 +42,40 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).load(function() {
   getAnimation();
-  getActiveLink();
+  // getActiveLink();
 });
 
 $(window).resize(function() {
   bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
   getRespNavParams();
   getAnimation();
-  getActiveLink();
+  // getActiveLink();
 });
 
 $(document).scroll(function() {
   getRespNavParams();
   getAnimation();
-  getActiveLink();
+  // getActiveLink();
 });
 
 $(document).ready(function() {
 
     getRespNavParams();
+
+    if( $(".promo_slider").length > 0 ) {
+      $(".promo_slider").not(".slick-initialized").slick({
+          dots: true,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 4000,
+          speed: 1200,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"><img src="img/left_arrow.png"></button>',
+          nextArrow: '<button class="slick-next" aria-label="Next" type="button"><img src="img/right_arrow.png"></button>',
+          fade: true
+      });
+    }
 
     if( $(".slider_1").length > 0 ) {
       $(".slider_1").not(".slick-initialized").slick({
