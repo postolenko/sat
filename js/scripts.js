@@ -14,6 +14,72 @@ function getAnimation() {
   });
 }
 
+function getTabsSlider(type, parent) {
+
+  tabCards = parent.attr("data-tabs-cards");
+  tabsSlider = $("[data-slider = '"+tabCards+"']");
+
+  if(tabsSlider.hasClass("slick-initialized")) {
+    tabsSlider.slick('unslick');        
+  }
+  tabsSlider.find(".slide").remove();
+
+  $("[data-cards = '"+tabCards+"'] [data-type]").attr("data-slide-index", "");
+
+  if(type != "") {
+    thumb = $("[data-cards = '"+tabCards+"'] [data-type = '"+type+"']");
+  } else {
+    thumb = $("[data-cards = '"+tabCards+"'] [data-type]");
+  }
+
+  counter = 0
+  slideIndex = 0;
+  thumb.each(function() {        
+    if(counter >= 8) {
+      counter = 0;
+      slideIndex++;
+    }
+    $(this).attr("data-slide-index", slideIndex);
+    counter++;
+  });
+
+  slideCounter = 0;
+  tabsSlider.append("<div class='slide'><div class='products_thumbs_wrapp' data-wrapp-index = '"+slideCounter+"'></div></div>");
+  thumb.each(function() {
+    slideIndexAttr = parseInt( $(this).attr("data-slide-index") );
+    if(slideIndexAttr > slideCounter) {
+      tabsSlider.append("<div class='slide'><div class='products_thumbs_wrapp' data-wrapp-index = '"+slideIndexAttr+"'></div></div>");
+      slideCounter++;
+    }        
+  });
+
+  thumb.each(function() {
+    slideIndexAttr = parseInt( $(this).attr("data-slide-index") );
+    thumbCard = $(this);
+    tabsSlider.find("[data-wrapp-index]").each(function() {
+      wrappIndex = parseInt( $(this).attr("data-wrapp-index") );
+      if(slideIndexAttr == wrappIndex) {
+        thumbCard.clone().appendTo($(this));
+      }
+    });
+  });
+
+  tabsSlider.not(".slick-initialized").slick({
+    dots: false,
+    arrows: true,
+    // autoplay: true,
+    autoplaySpeed: 4000,
+    speed: 1200,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"><img src="img/left_arrow.png"></button>',
+    nextArrow: '<button class="slick-next" aria-label="Next" type="button"><img src="img/right_arrow.png"></button>',
+    // fade: true
+  });
+
+}
+
+
 // function getActiveLink() {
 //   topNavCoord = $(".scroll_nav").offset().top;
 //   bottomNavCoord = $(".scroll_nav").offset().top + $(".scroll_nav").height();
@@ -107,21 +173,6 @@ $(document).ready(function() {
       });
     }
 
-    if( $(".tabs_slider_2").length > 0 ) {
-      $(".tabs_slider_2").not(".slick-initialized").slick({
-          dots: false,
-          arrows: true,
-          // autoplay: true,
-          autoplaySpeed: 4000,
-          speed: 1200,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"><img src="img/left_arrow.png"></button>',
-          nextArrow: '<button class="slick-next" aria-label="Next" type="button"><img src="img/right_arrow.png"></button>',
-          // fade: true
-      });
-    }
-
     $("[data-dropdown-btn]").on("click", function(e) {
       e.preventDefault();
       dr = $(this).attr("data-dropdown-btn");
@@ -201,7 +252,15 @@ $(document).ready(function() {
       });
       $(".popup_bg").fadeIn(300);
       $("[data-popup = '"+ popupName +"']").fadeIn(300);
+
+      if($(this).hasClass("product_thumb_2")) {
+        $("[data-popup = '"+popupName+"'] .popup_thumb_append").html("");
+        popupContent = $(this).find(".thumb_popup_content").html();
+        $("[data-popup = '"+popupName+"'] .popup_thumb_append").html(popupContent);
+      }
+
     });
+
     $(document).on("click", ".close_popup, .popup_bg", function(e) {
       e.preventDefault();
       curTop = $("body").css("top");
@@ -244,6 +303,32 @@ $(document).ready(function() {
             $("[data-popup]").fadeOut(300);
         }
       }
+    });
+
+    // ----------
+   
+    $("[data-tabs-cards] a").each(function() {
+      parent = $(this).closest("[data-tabs-cards]");
+      if($(this).hasClass("active")) {
+        type = $(this).attr("data-type-pill");
+        return false;
+      } else {
+        type = parent.find("li:eq(0) a").attr("data-type-pill");
+        parent.find("li:eq(0) a").addClass("active");
+      }
+    });
+
+    getTabsSlider(type, parent);
+
+    $("[data-tabs-cards] li a").on("click", function(e) {
+      e.preventDefault();
+      type = $(this).attr("data-type-pill");
+      parent = $(this).closest("[data-tabs-cards]");
+      parent.find("a").removeClass("active");
+      $(this).addClass("active");
+
+      getTabsSlider(type, parent);
+
     });
 
 });

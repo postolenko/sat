@@ -906,6 +906,44 @@
 
 	/*-- /Footer --*/
 
+	/*-- Popup --*/
+
+	.popup_content_2 {
+	    margin-top: 50px;
+	}
+
+	.popup_thumb_append .slide_left_col {
+	    width: 100%;
+	}
+
+	.popup_thumb_append .slide_right_col {
+	    padding-top: 13px;
+	    text-align: left;
+	}
+
+	.popup_thumb_append .product_thumb .img_box {
+		display: none;
+	}
+
+	.popup_thumb_append .product_thumb p {
+		display: none;
+	}
+
+	.popup_thumb_append .product_thumb .gradient_pill_2 {
+	    display: none;
+	}
+
+	.popup_thumb_append .product_thumb h3 {
+	    text-align: left;
+	}
+
+	.popup_content_2 .close_popup {
+	    top: 15px;
+	    right: 15px;
+	}
+
+	/*-- /Popup --*/
+
 }
 
 
