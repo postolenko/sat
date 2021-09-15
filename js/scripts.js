@@ -1,3 +1,11 @@
+function getScrollBtn() {
+  if($(document).scrollTop() > 100) {
+    $(".up_btn").removeClass("disable");
+  } else {
+    $(".up_btn").addClass("disable");
+  }
+}
+
 function getRespNavParams() {
   if($(document).scrollTop() > 10) {
     $("#headerTop").addClass("scroll");
@@ -108,6 +116,7 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).load(function() {
   getAnimation();
+  getScrollBtn();
   // getActiveLink();
 });
 
@@ -115,12 +124,14 @@ $(window).resize(function() {
   bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
   getRespNavParams();
   getAnimation();
+  getScrollBtn();
   // getActiveLink();
 });
 
 $(document).scroll(function() {
   getRespNavParams();
   getAnimation();
+  getScrollBtn();
   // getActiveLink();
 });
 
@@ -329,6 +340,15 @@ $(document).ready(function() {
 
       getTabsSlider(type, parent);
 
+    });
+
+    // ----------
+
+    $(".up_btn").on("click", function(e) {
+      e.preventDefault();
+      $('html, body').stop().animate({
+        'scrollTop': 0
+      }, 500);
     });
 
 });
